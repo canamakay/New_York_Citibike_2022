@@ -17,8 +17,8 @@ The data set was obtained from the [Citibike Database](https://s3.amazonaws.com/
 Weather data was obtained from [Noah](https://www.noaa.gov/).  
 
 ## Tools Used
-Matplotlib, 
-Seaborn,
-Plotly for making charts 
-Pandas and Kepler.gl for making maps
-Streamlit for creating dashboards 
+- Matplotlib, 
+- Seaborn,
+- Plotly for making charts 
+- Pandas and Kepler.gl for making maps
+- Streamlit for creating dashboards 
