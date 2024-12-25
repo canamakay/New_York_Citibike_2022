@@ -1,7 +1,7 @@
 # New_York_Citibike_2022
 
 ## Project Overview 
-Citibike, New York's bike-sharing service, has been increasing in popularity since its inception in 2013.  Demand for bikes has especially risen after the Covid-19 pandemic and has led to distribution issues.  Customers are finding some stations to be sparse, thereby preventing them from renting bikes, and other stations to be so full, preventing them from returning rented bikes.  This project aims to determine where and why issues arise.  Results of the study will aid the business strategy department to understand current bike distribution and decide where additional stations should be built.  
+Citibike, New York's bike-sharing service, has been increasing in popularity since its inception in 2013.  Demand for bikes has especially risen after the Covid-19 pandemic and has led to distribution issues.  Customers are finding some stations to be sparse, thereby preventing them from renting bikes, and other stations to be full, preventing them from returning rented bikes.  This project aims to determine where and why issues arise.  Results of the study will be presented in an interactive dashboard and will aid the business strategy department to understand current bike distribution and decide where additional stations should be built.  
 
 ## Key Questions
 - What are the most popular stations?
