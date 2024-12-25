@@ -20,5 +20,6 @@ Weather data was obtained from [Noaa](https://www.noaa.gov/).
 - Matplotlib, 
 - Seaborn,
 - Plotly for making charts 
-- Pandas and Kepler.gl for making maps
+- Pandas,
+- Kepler.gl for making maps
 - Streamlit for creating dashboards 
