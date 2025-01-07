@@ -4,3 +4,6 @@ json
 matplotlib
 seaborn
 pandas
+pandas
+matplotlib
+keplergl
