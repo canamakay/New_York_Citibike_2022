@@ -7,3 +7,9 @@ pandas
 pandas
 matplotlib
 keplergl
+plotly
+streamlit
+matplotlib
+streamlit_keplergl
+numerize
+pillow
