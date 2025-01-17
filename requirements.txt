@@ -1,6 +1,5 @@
 pandas
 requests
-json
 matplotlib
 seaborn
 pandas
@@ -13,3 +12,4 @@ matplotlib
 streamlit_keplergl
 numerize
 pillow
+json
