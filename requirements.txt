@@ -12,4 +12,10 @@ matplotlib
 streamlit_keplergl
 numerize
 pillow
+plotly
+streamlit
+matplotlib
+streamlit_keplergl
+numerize
+pillow
 json
