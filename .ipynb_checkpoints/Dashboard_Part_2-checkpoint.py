@@ -21,7 +21,7 @@ st.sidebar.title("Aspect Selector")
 page = st.sidebar.selectbox('Select an aspect of the analysis',
   ["Intro Page","Weather and Bike Usage",
    "Most Popular Stations",
-    "Interactive Map with Most Popular Bike Trips", "Weather and Bike Type", "Recommendations"])
+    "Interactive Map with Most Popular Bike Trips", "Weather and Bike Type", "Recommendations", "Recommendations Cont."])
 
 ########################################Importing Data######################################################
 
@@ -152,8 +152,7 @@ elif page == 'Weather and Bike Type':
     st.plotly_chart(fig, use_container_width=True)
     st.markdown("This chart shows that overall classic bikes are used more frequently than electric bikes.  Both types of bikes are ridden more in warmer temperatures, with the frequency of bike rides peaking between 20-25 degrees, though the peak is much higher for classic bikes than it is for electric bikes.  For classic bikes, there is a steep increase at 10 degrees while for electric bikes the increase is more gradual. This indicates a strong preference for warmer temperatures in classic bike riders.  Electric bike rides are more evenly distributed across temperatures.")
         
-else: 
-   
+elif page == 'Recommendations':
     st.header("Conclusions and recommendations")
     bikes = Image.open("Citibikes_2.jpg")  #source: Unsplash
     st.image(bikes)
@@ -162,3 +161,10 @@ else:
     st.markdown("- Add more stations around Central Park South and at the Roosevelt Island Tramway as these are where the most common trips take place.")
     st.markdown("- Ensure that bikes are well stocked at the most popular stations during the warmer months but decrease the supply during the colder months.")
     st.markdown("- When adding more bikes for warmer temperatures, add primarily classic bikes as those are more popular.")
+
+else: 
+   
+    st.header("Conclusions and recommendations")
+    st.markdown("- Scale back about 30-40% in the Winter.  This is because there is a 30-40% decrease in the number of bike rides from September when the number of bike rides peak to November when the nuber of bike rides really begins to drop.")
+    st.markdown("- Look at how well-distributed existing stations by the water are and determine where there are gaps.  These gaps represent where along the water we should add more stations.  In addition, we can see whether there are attractions along the water that don't have stations yet and add some there.")
+    st.markdown("- Use trackers that record how many bikes are at these stations at any given time.  This way, we can monitor the supply of bikes and replenish accordingly.  It gives us a way to more precisely predict and therefore prevent shortages.")
