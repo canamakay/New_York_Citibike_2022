@@ -12,7 +12,7 @@ Citibike, New York's bike-sharing service, has been increasing in popularity sin
 - In which areas are Citibikers travelling the most?
 
 ## Data
-The data set was obtained from the [Citibike Database](https://s3.amazonaws.com/tripdata/index.html)  The data is from the year 2022 and includes ride id, bike type, start and end times, stat and end stations, and member status.
+The data set was obtained from the [Citibike Database](https://s3.amazonaws.com/tripdata/index.html)  The data is from the year 2022 and includes ride id, bike type, start and end times, start and end stations, and member status.
 
 Weather data was obtained from [Noaa](https://www.noaa.gov/).  
 
